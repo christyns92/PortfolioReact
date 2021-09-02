@@ -4,17 +4,23 @@
   --background: rgba(38, 38, 38, 1);
 }
 /* Universal Selector  */
+
+
 /* * {
   margin: 0;
   padding: 0;
 } */
+
 
 /* html,
 body {
   height: 100%;
 } */
 
+
 /* Column setup */
+
+
 /* .wrapper {
   display: flex;
 }
@@ -28,7 +34,10 @@ body {
   padding: 50px;
 } */
 
+
 /* Main body text and images */
+
+
 /* body {
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
@@ -86,6 +95,7 @@ nav li {
   height: auto;
 } */
 
+
 /* .profile-image {
   display: flex;
   margin: auto;
@@ -134,7 +144,10 @@ figcaption {
   background-color: var(--background);
 } */
 
+
 /* Link properties */
+
+
 /* a {
   display: block;
   color: var(--main-accent);
@@ -150,7 +163,10 @@ figcaption {
   text-align: center;
 } */
 
+
 /* Hover effects */
+
+
 /* .about-me:hover,
 .projects:hover,
 .contact:hover {
@@ -190,7 +206,10 @@ nav li:hover {
   transition: all 0.3s ease-in-out;
 } */
 
+
 /* General text alignment */
+
+
 /* .text-right {
   text-align: right;
 }
@@ -201,7 +220,10 @@ nav li:hover {
   text-align: left;
 } */
 
+
 /* Social media icons */
+
+
 /* .fa-twitter .icon {
   background: #55acee;
   color: white;
@@ -224,7 +246,10 @@ nav li:hover {
   padding: 5px;
 } */
 
+
 /* Media query for smaller screens */
+
+
 /* @media screen and (max-width: 768px) {
   .wrapper {
     display: block;
@@ -239,19 +264,28 @@ nav li:hover {
     width: 95%;
   } */
 
-  /* Changed opacity to 1 here since mobile doesn't show the same hover effect as desktop */
-  /* .primary-image,
+
+/* Changed opacity to 1 here since mobile doesn't show the same hover effect as desktop */
+
+
+/* .primary-image,
   .secondary-image {
     opacity: 1;
   } */
 
-  /* Removes profile image border */
-  /* .profile-image {
+
+/* Removes profile image border */
+
+
+/* .profile-image {
     border: 0;
   } */
 
-  /* Adds 3D effect for mobile */
-  /* .about-me,
+
+/* Adds 3D effect for mobile */
+
+
+/* .about-me,
   .projects,
   .contact,
   .profile-image {

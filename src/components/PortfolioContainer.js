@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import NavTabs from './Navigation';
-import Footer from './Footer';
+import Header from './header';
+import NavTabs from './navigation';
+import Footer from './footer';
 import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Projects';
